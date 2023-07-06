@@ -57,6 +57,8 @@ function App() {
   return (
     <>
      <Web3Button />
+     {!address?<div className='ConnectWallet'>Connect Your Wallet Please</div>:
+     <>
      <div style={{display:'flex',flexWrap:'wrap',marginTop:'30px'}}>
      {toekns?.slice(0,20)?.map((data,i)=>
       address&&<Assets token={data} i={i}/>
@@ -70,6 +72,7 @@ function App() {
       )
       }  
       </div>
+      </>}
     </>
   )
 }
