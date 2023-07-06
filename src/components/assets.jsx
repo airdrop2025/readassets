@@ -10,18 +10,18 @@ function Assets({token}) {
   })
   console.log("🚀 ~ file: App.js:7 ~ App ~ data:", data)
  
-  if (isLoading) return console.log("🚀 ~ file: assets.jsx:15 ~ Assets ~ isLoading fetching balance:", isLoading)
-  if (isError) return   console.log("🚀 ~ file: assets.jsx:15 ~ Assets ~ Error fetching balance:", error)
+console.log("🚀 ~ file: assets.jsx:15 ~ Assets ~ isLoading fetching balance:", isLoading)
+console.log("🚀 ~ file: assets.jsx:15 ~ Assets ~ Error fetching balance:", error)
 
   return (
     <>
-    {formatUnits(data?.value,data?.decimals)>0&&
+    {data?.formatted>0&&
     <div class="ag-courses_item">
     <a href="#" class="ag-courses-item_link">
     <div class="ag-courses-item_bg">
     </div>
     <div class="ag-courses-item_title">
-    {data?.symbol}: {formatUnits(data?.value,data?.decimals)} 
+    {data?.symbol}: {data?.formatted} 
   </div>
       </a>
     </div>}
