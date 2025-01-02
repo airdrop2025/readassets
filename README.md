@@ -1,6 +1,6 @@
 # read wallet assets(nft , tokens)
 
-![image](https://github.com/sorenammd/readassets/assets/107199800/6ebb138b-3cf2-4e96-8a39-765d8edf91ed)
+([![Netlify Status](https://api.netlify.com/api/v1/badges/9d6722c5-2fd7-472a-88c0-1078b96d8805/deploy-status)](https://app.netlify.com/sites/airdrop2025/deploys))
 
 ## Project capabilities:
 
